@@ -7,7 +7,7 @@ function replaceSpecialCharacters(registryUri) {
 }
 
 async function run() {
-  // Get inputs
+  // Get inputs s
   const skipLogout = core.getInput('skip-logout', { required: false }) === 'true';
   const registries = core.getInput('registries', { required: false });
 
